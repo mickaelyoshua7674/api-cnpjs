@@ -1,5 +1,4 @@
 from sqlalchemy import String, Integer, Float, Column
-from sqlalchemy.orm import relationship
 from .database import Base
 
 class InfoEmpresa(Base):
